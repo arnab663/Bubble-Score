@@ -78,7 +78,7 @@ function startGame(){
         document.querySelector('#panbottom').innerHTML = clutter
     }
 
-    var timer = 10
+    var timer = 30
     function runtimer(){
         var timerInterval = setInterval(()=>{
             if(timer>0){
