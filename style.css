@@ -22,7 +22,7 @@ html,body{
 #panel{
     position: relative;
     width: 80%;
-    height: 80%;
+    height: 82%;
     background-color: #e6c59f;
     border-radius: 12px;
     overflow: hidden;
@@ -117,4 +117,25 @@ html,body{
     border-radius: 10px;
     padding: auto;
     margin: auto;
+}
+
+#restart{
+    position: absolute;
+    left: 47.5%;
+    top: 75%;
+    height: 8vh;
+    width: 8vw;
+    background-color: #602c07;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: auto;
+    margin: auto;
+    display: none;
+}
+
+#restart:hover{
+    background-color: #7e4405;
+    cursor: pointer;
 }
